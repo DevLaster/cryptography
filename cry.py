@@ -2,7 +2,7 @@ from cryptography.fernet import Fernet
 
 def generate_key():
     key = Fernet.generate_key()
-    with open("encryption_key.txt", "wb") as key_file:
+    with open("the-key-dont-delete-it.txt", "wb") as key_file:
         key_file.write(key)
 
 def load_key():
