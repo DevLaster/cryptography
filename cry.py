@@ -7,7 +7,7 @@ def generate_key():
 
 def load_key():
    
-    with open("encryption_key.txt", "rb") as key_file:
+    with open("the-key-dont-delete-it.txt", "rb") as key_file:
         return key_file.read()
 
 def encrypt_message(message, key):
